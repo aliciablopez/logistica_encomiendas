@@ -1,0 +1,18 @@
+# https://github.com/aliciablopez/logistica_encomiendas.git
+Logística de encomiendas
+Consigna: Simula un gestor de envíos de encomiendas
+
+Requisitos mínimos:
+1. El cliente entrega una encomienda en recepción. 
+
+2. Se identifica como Cliente Registrado o Nuevo Cliente (CRUD)
+
+3. Indica el destino: CABA, AMBA, Centro, Costa, Norte, Sur
+
+5. Se determina el peso máximo permitido: Ligero, Medio, Pesado, 
+
+6. El cliente elige tipo de servicio: Estándar, Urgente, Aéreo, Frágil, 
+
+7. Se determinan tasa aérea e IVA
+
+8. Si el cliente acepta la transacción, a lo anterior se agrega el sistema asigna código de seguimiento, activa estado (en depósito, en tránsito, entregado),  incorpora al inventario de encomiendas y se emite factura
